@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
-import { NgSwitch, NgSwitchDefault, NgSwitchCase } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.scss'],
-    standalone: true,
-    imports: [NgSwitch, NgSwitchDefault, NgSwitchCase]
+  selector: 'app-root',
+  styleUrls: ['./app.component.scss'],
+  standalone: true,
+  imports: [RouterOutlet],
+  template: `
+  <router-outlet />
+  <h1>teste</h1>
+`,
 })
 export class AppComponent {
-  title = 'fronted-anglv17-mater';
+
 }
