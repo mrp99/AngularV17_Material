@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fronted-anglv17-mater:build:production"
+              "buildTarget": "fronted-anglv17-mater:build:production"
             },
             "development": {
-              "browserTarget": "fronted-anglv17-mater:build:development"
+              "buildTarget": "fronted-anglv17-mater:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fronted-anglv17-mater:build"
+            "buildTarget": "fronted-anglv17-mater:build"
           }
         },
         "test": {
