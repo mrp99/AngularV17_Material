@@ -2,7 +2,9 @@ import { enableProdMode, importProvidersFrom } from "@angular/core";
 import { environment } from "./environments/environment.prod";
 import { bootstrapApplication } from "@angular/platform-browser";
 import { AppComponent } from "./app/app.component";
+
 import { MatToolbarModule } from "@angular/material/toolbar";
+
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import { provideRouter } from "@angular/router";

@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { AdminTemplateComponent } from './components/admin-template/admin-template.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   styleUrls: ['./app.component.scss'],
   standalone: true,
-  imports: [AdminTemplateComponent],
+  imports: [RouterModule],
   template: `
-  <app-admin-template />
+  <router-outlet></router-outlet>
 `,
 })
 export class AppComponent {

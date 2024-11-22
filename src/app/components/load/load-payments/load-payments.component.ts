@@ -3,12 +3,12 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
-  selector: 'app-payments',
+  selector: 'app-load-payments',
   standalone: true,
   imports: [MatCardModule, MatDividerModule],
-  templateUrl: './payments.component.html',
-  styleUrl: './payments.component.scss'
+  templateUrl: './load-payments.component.html',
+  styleUrl: './load-payments.component.scss'
 })
-export class PaymentsComponent {
+export class LoadPaymentsComponent {
 
 }
