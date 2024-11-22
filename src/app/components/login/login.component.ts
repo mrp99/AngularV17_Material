@@ -46,8 +46,8 @@ export class LoginComponent implements OnInit {
   }
 
   public onLogin(): void {
-    const username = this.loginForm.value.username;
-    const password = this.loginForm.value.password;
+    let username = this.loginForm.value.username;
+    let password = this.loginForm.value.password;
     let res = this.authservice.login(username, password);
     if (res) {
       this.router.navigateByUrl('/admin');
