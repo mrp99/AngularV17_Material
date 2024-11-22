@@ -90,6 +90,7 @@ export class StudentsComponent implements OnInit, AfterViewInit {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
+  //arrumar esse caminho
   public getPayment(stundent: any): void {
     this.router.navigateByUrl("/payments")
   }
