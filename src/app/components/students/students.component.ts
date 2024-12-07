@@ -91,8 +91,8 @@ export class StudentsComponent implements OnInit, AfterViewInit {
   }
 
   //arrumar esse caminho
-  public getPayment(stundent: any): void {
-    this.router.navigateByUrl("/payments")
+  public getPayment(): void {
+    this.router.navigateByUrl("/payments");
   }
 
 }
